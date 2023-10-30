@@ -1,0 +1,11 @@
+version: "3.7"
+services:
+  telegram-bot:
+    build:
+     context: ./bot
+    volumes:
+      - ./bot/app:/app
+    env_file:
+      - ./bot/.env
+
+      

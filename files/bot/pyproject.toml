@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pytelegramapi"
+version = "0.1.0"
+description = ""
+authors = ["Ayan <ismailovaayan60@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.4"
+python-docx = "^0.8.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
